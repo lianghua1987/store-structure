@@ -1,0 +1,38 @@
+3940:M 01 May 22:40:43.340 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+3940:M 01 May 22:40:43.341 * No cluster configuration found, I'm b658a243a08c6e4840ea0c3632750ddb28a213c1
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in cluster mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 7006
+ |    `-._   `._    /     _.-'    |     PID: 3940
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+3940:M 01 May 22:40:43.344 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+3940:M 01 May 22:40:43.344 # Server started, Redis version 3.0.6
+3940:M 01 May 22:40:43.344 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+3940:M 01 May 22:40:43.344 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+3940:M 01 May 22:40:43.344 * The server is now ready to accept connections on port 7006
+3940:M 01 May 22:40:47.788 # configEpoch set to 6 via CLUSTER SET-CONFIG-EPOCH
+3940:M 01 May 22:40:47.946 # IP address for this node updated to 10.0.0.77
+3940:M 01 May 22:40:52.883 # Cluster state changed: ok
+3940:S 01 May 22:40:54.397 * Connecting to MASTER 10.0.0.77:7003
+3940:S 01 May 22:40:54.397 * MASTER <-> SLAVE sync started
+3940:S 01 May 22:40:54.397 * Non blocking connect for SYNC fired the event.
+3940:S 01 May 22:40:54.398 * Master replied to PING, replication can continue...
+3940:S 01 May 22:40:54.399 * Partial resynchronization not possible (no cached master)
+3940:S 01 May 22:40:54.399 * Full resync from master: ef9c2a8290a3c5c9d12211a9e456d94a8063e551:1
+3940:S 01 May 22:40:54.497 * MASTER <-> SLAVE sync: receiving 18 bytes from master
+3940:S 01 May 22:40:54.497 * MASTER <-> SLAVE sync: Flushing old data
+3940:S 01 May 22:40:54.497 * MASTER <-> SLAVE sync: Loading DB in memory
+3940:S 01 May 22:40:54.497 * MASTER <-> SLAVE sync: Finished with success
